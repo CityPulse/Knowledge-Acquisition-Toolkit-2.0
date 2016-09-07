@@ -1,5 +1,7 @@
 # KAT (Knowledge Acquisition Toolkit) version 2
 
+ The Knowledge Acquisition Tool (KAT) is a software toolkit that implements the state-of-the-art machine learning and data analytic methods for sensors data. The algorithms and methods implemented in KAT are used for processing and analysing the smart city data in the CityPulse project in the Data aggregation and Event processing components.  
+
 To run KAT go to src folder and run MainGUI.py
 
 KAT follows a simple processing approach. We use a general workflow that has been extracted by observing several different solutions for information abstraction. The existing solutions either follow the steps shown in the figure below or implement some parts of it. We identified the following main steps: Pre-processing to bring the data into shape for further processing, Dimensionality Reduction to either compress the data or reduce its feature vectors, Feature Extraction to find low-level Abstractions in local sensor data, Abstraction from raw data to higher-level Abstractions and finally semantic representations to make the abstracted data available for the end-user and/or machines that interpret the data.
