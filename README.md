@@ -1,6 +1,6 @@
 # KAT (Knowledge Acquisition Toolkit) version 2
 
-[http://kat.ee.surrey.ac.uk/download.html](http://kat.ee.surrey.ac.uk/download.html)
+[http://kat.ee.surrey.ac.uk/](http://kat.ee.surrey.ac.uk/)
 
  The Knowledge Acquisition Tool (KAT) is a software toolkit that implements the state-of-the-art machine learning and data analytic methods for sensors data. The algorithms and methods implemented in KAT are used for processing and analysing the smart city data in the CityPulse project in the Data aggregation and Event processing components.  
 
