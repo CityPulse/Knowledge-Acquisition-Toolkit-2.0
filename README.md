@@ -8,7 +8,7 @@ KAT follows a simple processing approach. We use a general workflow that has bee
 
 ![alt tag](http://kat.ee.surrey.ac.uk/graph/flow.png)
 
-(Source: Frieder Ganz, Daniel Puschmann, Payam Barnaghi, Francois Carrez, "A Practical Evaluation of Information Processing and Abstraction Techniques for the Internet of Things", IEEE Internet of Things Journal, 2015.)
+(Source: Frieder Ganz, Daniel Puschmann, Payam Barnaghi, Francois Carrez, "[A Practical Evaluation of Information Processing and Abstraction Techniques for the Internet of Thing](http://epubs.surrey.ac.uk/807336/17/ieeeiot.pdf)", IEEE Internet of Things Journal, 2015.)
 
 # Pre-Processing
 The raw sensory data is pre-processed stage to prepare the data for information acquisition. Pre-processing can be done on sensor nodes to reduce transmission cost or filter unwanted data and can include mathematical/statistical methods to smooth the data by applying moving average windows, or methods from signal processing such as band-, low-, high pass filtering to focus on a certain frequency spectrum.
