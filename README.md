@@ -1,5 +1,7 @@
 # KAT (Knowledge Acquisition Toolkit) version 2
 
+[http://kat.ee.surrey.ac.uk/download.html](http://kat.ee.surrey.ac.uk/download.html)
+
  The Knowledge Acquisition Tool (KAT) is a software toolkit that implements the state-of-the-art machine learning and data analytic methods for sensors data. The algorithms and methods implemented in KAT are used for processing and analysing the smart city data in the CityPulse project in the Data aggregation and Event processing components.  
 
 To run KAT go to src folder and run MainGUI.py
@@ -18,7 +20,7 @@ Transmission cost can be reduced by only sending aggregated information or a sel
 # Dimensionality Reduction
 To handle the large amount of data that has to be processed and stored. Dimensionality reduction can decrease the size and length of samples by applying different methods on the data while preserving the important features and patterns.
 
-This section presents a simple example based on a dataset gathered in an office environment consisting of several hundred thousand sensor readings. The sensor was deployed near an office desk and measured light level, PIR, sound, and energy consumption of an office workstation. The dataset can be downloaded here: http://kat.ee.surrey.ac.uk/download.html
+This section presents a simple example based on a dataset gathered in an office environment consisting of several hundred thousand sensor readings. The sensor was deployed near an office desk and measured light level, PIR, sound, and energy consumption of an office workstation. The dataset can be downloaded [here](http://kat.ee.surrey.ac.uk/download.html)
 
 
 # Data Import
