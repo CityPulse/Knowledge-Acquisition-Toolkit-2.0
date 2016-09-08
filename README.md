@@ -29,26 +29,35 @@ The first step is the data import. KAT currently supports CSV and MS Excel forma
 
 Once the data is imported, the labels will appear on the screen. Select "light" check box from the data labels to show the data in a diagram (as shown below). In case that the data is not shown, select check box and left click on empty diagram.
 
-![alt tag](https://github.com/UniSurreyIoT/KAT-v2/blob/master/imgs/Sc2.PNG)
+The current version uses the ‘timestamp’ to provide some information about the dataset, e.g. number of days included, number of samples per day/hour (To use this feature, the time label should be called ‘timestamp’). 
+
+Furthermore, this version provides additional visual settings, such as moving along the plotted data and zooming in for a desired window. For instance, the following figure shows a zoomed-in section of the uploaded data.
+
+
 
 
 # Data Pre-Processing
-To highlight features of the data set, a mean filter is used in this example. The mean filter divides the data into windows and replaces the window with the mean value. This filter can highlight outliers and reduces the noise.
+To highlight features of the data set, a mean filter (i.e. moving average) is used in this example. The mean filter divides the data into windows (where window length is selected as a parameter) and replaces each window with the mean value. This filter can highlight outliers and reduces the noise. Please select the desired algorithm and its parameter (if required) and click ‘Run’ to see the output. 
+
+Note that the new version allows you to save your output at each step. To this end, click on the corresponding press button (in front of ‘Save Output’), select the name and format, and save the data.
+
+
+![alt tag](https://github.com/UniSurreyIoT/KAT-v2/blob/master/imgs/Sc2.PNG)
+
+The use of more than one pre-processing algorithm is supported. For example, the following figure shows the dataset after applying the ‘outlier removal’ on the previous output.
+
 
 ![alt tag](https://github.com/UniSurreyIoT/KAT-v2/blob/master/imgs/Sc3.PNG)
 
-# Dimension Reduction
-To create a symbolic representation of the data, we use a technique called SAX. 
-
 ![alt tag](https://github.com/UniSurreyIoT/KAT-v2/blob/master/imgs/Sc4.PNG)
 
-# Feature Extraction
-To find interesting patterns that are likely to represent an event, phenomena or interesting observations a k-means clustering algorithm is used. In this example, the k-means algorithm is run with a group size of three. The algorithm clusters periods of low activity (low power), medium activity, and peaks (high power usage) into the groups labelling them from 0 to 2.
+
+
+# Dimension Reduction
+
+Due to the large number of sensor nodes and high sampling rates of sensor data, the amount of data is not bearable for many data processing algorithms. Therefore, dimensionality reduction techniques are usually used to reduce the number of features from a high dimensional space to a low-dimensional representation.  Here we use a technique called PAA (Piecewise Aggregate Approximation). PAA requires a parameter, which defines the ratio of reduction. For instance, the PAA parameter is set as 100 in our example, meaning that the number of samples per hour is changing from 361 to ~3.61 
 
 ![alt tag](https://github.com/UniSurreyIoT/KAT-v2/blob/master/imgs/Sc5.PNG)
-
-# Abstraction
-To find relationships between different groups produced in the previous section, a Markov based statistical model is applied to the data. The model returns the likelihood of the temporal presence of the different groups.
 
 
 #Contributers
