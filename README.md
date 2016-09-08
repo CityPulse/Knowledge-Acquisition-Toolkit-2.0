@@ -8,7 +8,7 @@ To run KAT go to src folder and run MainGUI.py
 
 KAT follows a simple processing approach. We use a general workflow that has been extracted by observing several different solutions for information abstraction. The existing solutions either follow the steps shown in the figure below or implement some parts of it. We identified the following main steps: Pre-processing to bring the data into shape for further processing, Dimensionality Reduction to either compress the data or reduce its feature vectors, Feature Extraction to find low-level Abstractions in local sensor data, Abstraction from raw data to higher-level Abstractions and finally semantic representations to make the abstracted data available for the end-user and/or machines that interpret the data.
 
-![alt tag](http://kat.ee.surrey.ac.uk/graph/flow.png)
+![alt tag](https://github.com/CityPulse/Knowledge-Acquisition-Toolkit-2.0/blob/master/Workflow.png)
 
 (Source: Frieder Ganz, Daniel Puschmann, Payam Barnaghi, Francois Carrez, "[A Practical Evaluation of Information Processing and Abstraction Techniques for the Internet of Thing](http://epubs.surrey.ac.uk/807336/17/ieeeiot.pdf)", IEEE Internet of Things Journal, 2015.)
 
