@@ -64,3 +64,9 @@ Due to the large number of sensor nodes and high sampling rates of sensor data, 
 
 #Contributers
 KAT was developed as part of the EU project CityPulse. The consortium member University of Surrey provided the main contributions for this component.
+
+References:
+
+[1] Frieder Ganz, Daniel Puschmann, Payam Barnaghi, Francois Carrez, "A Practical Evaluation of Information Processing and Abstraction Techniques for the Internet of Things", IEEE Internet of Things Journal, volume: 2, issue: 4, pp. 340 - 354, 2015. 
+
+[2] Frieder Ganz, Payam Barnaghi, Francois Carrez, "Automated Semantic Knowledge Acquisition from Sensor Data", IEEE Systems Journal, 2014. 
